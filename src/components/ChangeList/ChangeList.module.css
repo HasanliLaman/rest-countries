@@ -1,0 +1,23 @@
+.changeList {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  align-items: flex-start;
+  padding: 3rem 1.6rem;
+}
+
+@media (min-width: 576px) {
+  .changeList {
+    padding: 3rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .changeList {
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    padding: 4.5rem 0;
+    justify-content: space-between;
+  }
+}

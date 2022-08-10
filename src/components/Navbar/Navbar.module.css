@@ -1,0 +1,27 @@
+.navbar p {
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+.navbar > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  padding: 2.7rem 1.6rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: var(--color-secondary);
+}
+
+@media (min-width: 768px) {
+  .navbar p {
+    font-size: 1.8rem;
+  }
+
+  .navbar {
+    padding: 2.1rem 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+}

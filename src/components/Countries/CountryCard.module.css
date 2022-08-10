@@ -1,0 +1,35 @@
+.cardContent > div {
+  display: flex;
+  gap: 0.7rem;
+  font-size: 1.25rem;
+}
+
+.cardContent > div:not(:last-of-type) {
+  margin-bottom: 0.7rem;
+}
+
+.cardContent span {
+  font-weight: 700;
+}
+
+.card h2 {
+  font-size: 1.7rem;
+  font-weight: 900;
+  margin-bottom: 1.8rem;
+}
+
+.cardContent {
+  padding: 2.1rem 2rem 3.5rem;
+}
+
+.card {
+  cursor: pointer;
+  background: var(--color-secondary);
+  max-width: 250px;
+}
+
+.card img {
+  width: 250px;
+  height: 160px;
+  object-fit: cover;
+}

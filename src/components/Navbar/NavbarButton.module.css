@@ -1,0 +1,12 @@
+.button {
+  font-size: 1.3rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.button svg {
+  fill: var(--color-text);
+}

@@ -1,0 +1,41 @@
+.filterContainer {
+  position: relative;
+}
+
+.filter {
+  background-color: var(--color-secondary);
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  gap: 6rem;
+  cursor: pointer;
+  font-weight: 600;
+  overflow: visible;
+}
+
+.filter svg {
+  fill: var(--color-text);
+}
+
+.filterDropdown {
+  position: absolute;
+  top: 115%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-secondary);
+  z-index: 1;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+.filterDropdown span {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .filter {
+    gap: 4.5rem;
+  }
+}

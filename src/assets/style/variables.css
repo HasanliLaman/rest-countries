@@ -1,0 +1,21 @@
+.theme-light {
+  --color-primary: #fafafa;
+  --color-secondary: #fff;
+  --color-text: #222;
+}
+
+.theme-dark {
+  --color-primary: #212e37;
+  --color-secondary: #2b3743;
+  --color-text: #fff;
+}
+
+.theme-light {
+  color: var(--color-text);
+  background: var(--color-secondary);
+}
+
+.theme-dark {
+  color: var(--color-text);
+  background: var(--color-secondary);
+}

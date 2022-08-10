@@ -1,0 +1,11 @@
+.detail {
+  min-height: calc(100vh - 73px);
+  background: var(--color-primary);
+}
+
+@media (min-width: 768px) {
+  .detail {
+    min-height: calc(100vh - 63px);
+    background: var(--color-primary);
+  }
+}

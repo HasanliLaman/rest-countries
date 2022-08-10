@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/HasanliLaman/rest-countries](https://github.com/HasanliLaman/rest-countries)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://lamanhasanli-rest-countries.netlify.app/](https://lamanhasanli-rest-countries.netlify.app/)
 
 ## My process
 

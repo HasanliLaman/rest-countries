@@ -7,16 +7,15 @@ const useAxios = (configParams) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    const fetchDataUsingAxios = async () => {
+      await axios
+        .request(configParams)
+        .then((res) => setRes(res))
+        .catch((err) => setErr(err))
+        .finally(() => setLoading(false));
+    };
     fetchDataUsingAxios(configParams);
   }, [configParams]);
-
-  const fetchDataUsingAxios = async () => {
-    await axios
-      .request(configParams)
-      .then((res) => setRes(res))
-      .catch((err) => setErr(err))
-      .finally(() => setLoading(false));
-  };
 
   return [res, loading, err];
 };

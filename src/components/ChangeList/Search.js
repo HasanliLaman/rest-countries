@@ -1,7 +1,6 @@
-import React, { useState, useMemo, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Curved from "../UI/Curved";
 import styles from "./Search.module.css";
-import useAxios from "../../hooks/useAxios";
 
 const Search = (props) => {
   const [input, setInput] = useState("");
